@@ -1,0 +1,53 @@
+.feedback-card {
+  width: 600px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  margin: 20px auto;
+  margin-top: 100px;
+}
+
+.feedback-card h2 {
+  text-align: center;
+}
+
+.feedback-card.form-group {
+  margin-bottom: 20px;
+}
+
+.feedback-card.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.feedback-card.form-group input,
+.form-group textarea {
+  width: 80%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.feedback-card.form-group textarea {
+  resize: vertical;
+}
+
+.feedback-card button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  margin-left: 200px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 20;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,237 @@
+/* LandingPage.css */
+.landing-page {
+    font-family: poppins;
+    color: #333;
+  }
+  
+  .header {
+    background-color: #f8f8f8;
+    padding: 20px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .hero-section {
+    margin-top: 60px;
+    /* background-image: url('file:///D:/ProjectFiles/new_ats/src/Assets/doodle_login2.jpg'); */
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .hero-content {
+    color: white;
+    text-align: left;
+    margin-left: 20px;
+  }
+  
+  .hero-content h1 {
+    font-size: 36px;
+    font-weight: bold;
+    
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 40px;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #004288;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    border-color: transparent;
+    font-family: poppins;
+    font-size: medium;
+    font-weight: bold;
+  }
+  
+  .cta-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .about-section {
+    
+    margin-top: 10px;
+    padding: 40px 0;
+    text-align: center;
+    background-color: white;
+    border: 1px solid #ddd;
+    margin-left: 10px;
+    margin-right: 20px;
+  }
+  
+  .about-content {
+    
+    max-width: 800px;
+    margin: 0 auto;
+    color: #0056b3;
+  }
+  
+  .about-content h2 {
+    color: #05376c;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .about-content p {
+    font-weight: 900;
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  .servicesection {
+    box-shadow: 4px 3px 4px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 20px;
+    text-align: center;
+    background-color: white;
+    border: 1px solid #ddd;
+  }
+  
+  .servicesection h2 {
+    color: #05376c;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+   
+  }
+  
+  .service-cards {
+    display: flex;
+    font-weight: bold;
+    color: #0056b3;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+   
+    margin-bottom: 70px;
+  }
+  
+  .service-card {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    height: 270px;
+    border-radius: 5px;
+    box-shadow: 4px 3px 4px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .service-card p {
+    font-size: 16px;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  .hero-section{
+    margin: auto;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    overflow: auto;
+    background: linear-gradient(315deg, rgba(101,0,94,1) 3%, rgba(60,132,206,1) 38%, rgba(48,238,226,1) 68%, rgba(255,25,25,1) 98%);
+    animation: gradient 15s ease infinite;
+    background-size: 400% 400%;
+    background-attachment: fixed;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+.wave {
+    background: rgb(255 255 255 / 25%);
+    border-radius: 1000% 1000% 0 0;
+    position: fixed;
+    width: 200%;
+    height: 12em;
+    animation: wave 10s -3s linear infinite;
+    transform: translate3d(0, 0, 0);
+    opacity: 0.8;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.wave:nth-of-type(2) {
+    bottom: -1.25em;
+    animation: wave 18s linear reverse infinite;
+    opacity: 0.8;
+}
+
+.wave:nth-of-type(3) {
+    bottom: -2.5em;
+    animation: wave 20s -1s reverse infinite;
+    opacity: 0.9;
+}
+
+@keyframes wave {
+    2% {
+        transform: translateX(1);
+    }
+
+    25% {
+        transform: translateX(-25%);
+    }
+
+    50% {
+        transform: translateX(-50%);
+    }
+
+    75% {
+        transform: translateX(-25%);
+    }
+
+    100% {
+        transform: translateX(1);
+    }
+}

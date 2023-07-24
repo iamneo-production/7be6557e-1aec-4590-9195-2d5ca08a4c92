@@ -1,0 +1,145 @@
+.job-listing-container {
+    max-width: 1000px;
+    margin-left: 200px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    font-family: poppins;
+    margin-top: 80px;
+  }
+  
+  .job-carxd {
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+  }
+  
+  .job-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-family: poppins;
+  }
+  
+  .job-title {
+    margin-top: 35px;
+    font-family: poppins;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .job-carxd .location {
+    font-size: 16px;
+    color: #0e18d9;
+    font-weight: bold;
+  }
+  
+  .job-experience {
+    font-size: 16px;
+    color: #777777;
+  }
+  
+  .job-description {
+    margin-bottom: 20px;
+  }
+  
+  .company-info {
+    margin-bottom: 20px;
+  }
+  
+  .company-name {
+    align-content: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .company-address {
+    font-size: 14px;
+    color: #777777;
+  }
+  
+  .job-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .job-salary {
+    font-size: 16px;
+    color: #464646;
+  }
+  
+  .apply-btn {
+    padding: 10px 20px;
+    background-color: #004182;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  .job-requirements,
+  .job-benefits {
+    margin-bottom: 20px;
+  }
+  
+  .section-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  /* Additional Styling */
+  .job-listing-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .job-carxd {
+    width: 100%;
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(87, 84, 84, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+  }
+  
+  .apply-form-container {
+    background-color: #fff;
+    padding: 20px;
+    padding-bottom: 40px;
+    border-radius: 5px;
+  }
+  
+  .close-btn {
+    background-color: transparent;
+    border-radius: 30px;
+    border-color: transparent;
+  }
+  
+  .close-btn:hover {
+    background-color:#a90505;
+   
+  }

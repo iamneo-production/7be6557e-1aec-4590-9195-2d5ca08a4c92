@@ -1,0 +1,81 @@
+.job-application-form {
+  width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 4px;
+  margin-left: 500px;
+}
+
+.job-application-form
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.job-application-form .form-group {
+  margin-bottom: 20px;
+}
+#email, #jobTitle
+{
+  width: 150px;
+}
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.job-application-form
+input[type='text'],
+input[type='email'],
+input[type='file'] {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+.job-application-form input::file-selector-button {
+  font-weight: bold;
+  color: grey;
+  font-family: poppins;
+  padding: 0.5em;
+  border: 1px solid #ddd;
+  background-color: white;
+  border-radius: 3px;
+  cursor:pointer;
+}
+
+.error {
+  color: #ff0000;
+  font-size: 12px;
+  margin-top: 5px;
+  font-family: poppins;
+}
+
+.job-application-form[type='submit'] {
+  padding: 10px 20px;
+  background-color:#004182;
+  font-family: poppins;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 140px;
+}
+
+.job-application-form[type='submit']:hover {
+  background-color:#1f5d9b ;
+  
+}
+
+@media (max-width: 500px) {
+  .job-application-form {
+    max-width: 300px;
+  }
+}
+.job-application-form button
+{
+     margin-left: 150px;  
+}

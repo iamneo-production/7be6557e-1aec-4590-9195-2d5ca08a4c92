@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Poppins:wght@200&display=swap');
+.job-list-container {
+    margin-top: 70px;
+    max-width: 600px;
+    margin-left: 300px;
+    justify-content:right;
+  }
+  .search
+  {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+  }
+  .forms-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  .lg
+ 
+  .forms-group {
+    flex-basis: calc(50% - 10px);
+  }
+  .forms-group input
+  {
+   
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+  /* Jobs.css */
+.description {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1; /* Limit to one line */
+  -webkit-box-orient: vertical;
+}
+
+ #experience-filter
+  {
+    margin-top: 9px;
+    font-family: poppins;
+    width: 150px;
+    margin-bottom: 20px;
+    padding: 8px;
+    border: 1px solid #ddd;
+  }
+  option
+  {
+    font-family: poppins;
+    padding: 30px;
+  }
+  .search:focus
+  {
+    outline-color: #ddd;
+  }
+  .job-list-container .job-caxrd {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 20px;
+    width:1000px;
+    
+  }
+  
+  .job-card h3 {
+    margin-top: 0;
+  }
+  
+  .company {
+    font-weight: bold;
+    font-family:poppins;
+  }
+  
+  .job-card.location {
+    margin-top: 8px;
+    color:#0056b3;
+    font-weight: 400;
+  }
+  
+  .description {
+    margin-top: 16px;
+    font-family: poppins;
+    font-weight: bold;
+    font-size:small;
+  }
+  .apply-link
+  {
+      text-decoration: none;
+      font-family: poppins;
+      font-size: 14px;
+      font-weight:bolder;
+      color: #001bb3;
+  }
+  .apply-btn {
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .apply-btn:hover {
+    background-color: #0056b3;
+  }
+  
